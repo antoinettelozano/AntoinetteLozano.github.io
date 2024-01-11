@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="styles.css"/>
+    </head>
+  <body>
+      
+ <!-- Header HTML -->
+  <header>
+    <b href="index.html" onclick="scrollToTop()">AL.</b>
+      
+    <!-- 
+    Code copied from: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+    Author: w3schools.com
+    Name: How To Create a Scroll to Top Button
+    Description: Scrolls to top of page on click
+    Date Retrieved: December 6, 2023
+    -->
+    
+    <!-- Copied code starts -->
+    <script>
+      function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+    </script>
+    <!-- Copied code ends -->
+      
+      <div>
+      <a href="index.html">WORK</a>
+      <a href="about.html">ABOUT</a>
+      <a href="Contact.html">CONTACT</a>
+    </div>
+      </header>
+
+    <div
+      style="
+        position: relative;
+        background-color: #fff;
+        width: 100%;
+        height: 2771px;
+        overflow: hidden;
+        text-align: left;
+        font-size: 20px;
+        color: #000;
+        font-family: 'Circular Std';
+      "
+    >
+        
+<!--Introduction-->   
+      <div
+        style="
+          position: absolute;
+          top: 343px;
+          left: 637px;
+          width: 599px;
+          height: 80px;
+          font-size: 63px;
+        "
+      >
+        <div
+          style="
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 517px;
+            height: 80px;
+          "
+        >
+          <b style="position: absolute; top: 0px; left: 0px"
+            >Hi, I’m Antoinette</b
+          >
+        </div>
+        <b style="position: absolute; top: 0px; left: 534px; font-size: 65px"
+          >👋🏼</b
+        >
+      </div>
+      <div
+        style="
+          position: absolute;
+          top: 433px;
+          left: 641px;
+          line-height: 148.25%;
+          font-weight: 500;
+          display: inline-block;
+          width: 595.21px;
+          height: 77.68px;
+        "
+      >
+        I am passionate about creating better digital experiences through
+        intuitive design solutions.
+      </div>
+      <img
+        style="
+          position: absolute;
+          top: 254px;
+          left: 200px;
+          width: 420px;
+          height: 402px;
+          object-fit: cover;
+        "
+        alt="Antoinette Portrait"
+        src="AntoinettePortrait%201.png"
+      />
+
+<!--See my work button--> 
+  <div
+    style="
+      position: absolute;
+      top: 523px;
+      left: 641px;
+      border-radius: 31.5px;
+      background-color: rgba(217, 217, 217, 0);
+      border: 3px solid #000;
+      box-sizing: border-box;
+      width: 195px;
+      height: 63px;
+    "
+    onclick="scrollToRecentWork()"
+  ></div>
+  <div
+    style="
+      position: absolute;
+      top: 540px;
+      left: 641px;
+      font-size: 20px;
+      line-height: 148.25%;
+      font-weight: 500;
+      color: #000;
+      text-align: center;
+      display: inline-block;
+      width: 195px;
+      height: 29px;
+      cursor: pointer;
+    "
+    id="sEEMYWORK"
+    onclick="scrollToRecentWork()"
+  >
+    SEE MY WORK
+  </div>
+
+<!--My recent work--> 
+  <div
+    style="
+      position: absolute;
+      top: 866px;
+      left: 199px;
+      font-weight: 500;
+      color: rgba(0, 0, 0, 0.7);
+    "
+    id="mYRECENTWORK"
+  >
+    MY RECENT WORK
+  </div>
+        
+    <!-- 
+    Code copied from: https://medium.com/@snowleo208/how-to-create-smooth-scroll-for-your-website-ce5b198d9d94
+    Author: Yuki C.
+    Name: How To Create smooth scroll for your website
+    Description: Scrolls down to part of the page on click
+    Date Retrieved: December 6, 2023
+    -->
+    
+    <!-- Copied code starts -->       
+        <script>
+    function scrollToRecentWork() {
+      var recentWorkSection = document.getElementById('mYRECENTWORK');
+      recentWorkSection.scrollIntoView({ behavior: 'smooth' });
+    }
+        </script>
+    <!-- Copied code ends --> 
+        
+<!--Get in touch button-->  
+      <div
+        style="
+          position: absolute;
+          top: 523px;
+          left: 860px;
+          width: 195px;
+          height: 63px;
+          text-align: center;
+          color: #fff;
+        "
+      >
+        <div
+          style="
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            border-radius: 31.5px;
+            background-color: #000;
+            width: 195px;
+            height: 63px;
+          "
+        ></div>        
+          
+   <style>
+
+    .contact-container {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 195px;
+      height: 63px;
+      text-align: center;
+    }
+
+    .contact-overlay {
+      border-radius: 31.5px;
+      background-color: #000;
+      width: 195px;
+      height: 63px;
+      cursor: pointer;
+    }
+
+    .contact-text {
+      position: absolute;
+      top: 17px;
+      left: 0;
+      line-height: 148.25%;
+      font-weight: 500;
+      display: inline-block;
+      width: 195px;
+      height: 29px;
+      color: #fff; 
+    }
+  </style>
+
+
+  <a href="contact.html" class="contact-container">
+    <div class="contact-overlay"></div>
+    <div class="contact-text">
+      GET IN TOUCH
+    </div>
+  </a>            
+      </div>
+        <style>
+      
+/* Stratshare Components Styles*/ 
+    .stratshare-container {
+      position: absolute;
+      top: 947px;
+      left: 200px;
+      width: 1042px;
+      height: 406px;
+      text-align: center;
+      font-size: 19.05px;
+      color: #fff;
+      transition: transform 0.3s ease-in-out;
+      cursor: pointer;
+    }
+
+    .stratshare-container:hover {
+      transform: scale(1.1);
+    }
+
+    .overlay {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: 0%;
+      right: 0%;
+      bottom: 0%;
+      left: 0%;
+      border-radius: 45px;
+      background-color: #f5f5f5;
+    }
+
+    .ssdescription {
+      position: absolute;
+      width: 37.29%;
+      top: 36.21%;
+      left: 54.89%;
+      line-height: 148.25%;
+      font-family: 'Proxima Nova';
+      color: rgba(0, 0, 0, 0.7);
+      text-align: left;
+      display: inline-block;
+    }
+
+    .sstitle {
+      position: absolute;
+      height: 12.56%;
+      width: 24.18%;
+      top: 21.18%;
+      right: 20.93%;
+      bottom: 66.26%;
+      left: 54.89%;
+      text-align: left;
+      font-size: 45px;
+      color: #000;
+      font-family: Georgia;
+    }
+
+    .ssphoto {
+      position: absolute;
+      top: 10.51%;
+      right: 54.53%;
+      bottom: 8.87%;
+      left: 3.86%;
+    }
+            
+      
+/* Colour City Components Styles*/ 
+
+    .colourcity-container {
+      position: absolute;
+      top: 1406.71px;
+      left: 200px;
+      width: 1042px;
+      height: 406px;
+      text-align: center;
+      cursor: pointer;
+      font-size: 19.05px;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .colourcity-container:hover {
+      transform: scale(1.1);
+    }
+
+    .colourcity-overlay {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      border-radius: 45px;
+      background-color: #f5f5f5;
+      width: 1042px;
+      height: 406px;
+      cursor: pointer;
+    }
+
+    .colourcity-description {
+      position: absolute;
+      top: 146.29px;
+      left: 572.19px;
+      line-height: 148.25%;
+      font-family: 'Proxima Nova';
+      color: rgba(0, 0, 0, 0.7);
+      text-align: left;
+      display: inline-block;
+      width: 388.57px;
+      height: 76.19px;
+    }
+
+    .colourcity-title {
+      position: absolute;
+      top: 85.29px;
+      left: 572.19px;
+      width: 262px;
+      height: 51px;
+      text-align: left;
+      font-size: 45px;
+      color: #000;
+      font-family: Georgia;
+    }
+    
+    .colourcitymockup {
+      position: absolute;
+      top: 38.29px;
+      left: 39px;
+      border-radius: 15px;
+      width: 435px;
+      height: 328px;
+      object-fit: cover;
+      cursor: pointer;
+    }
+  
+/* Magic Nation Components Styles*/ 
+    .magicnation-container {
+      position: absolute;
+      top: 1866px;
+      left: 199px;
+       width: 1042px;
+      height: 405px;
+      text-align: center;
+      cursor: pointer;
+      font-size: 19.05px;
+      transition: transform 0.3s ease-in-out;
+    }
+      
+    .magicnation-container:hover {
+      transform: scale(1.1);
+    }
+      
+      .magicnation-overlay {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      border-radius: 45px;
+      background-color: #f5f5f5;
+      width: 1042px;
+      height: 406px;
+      cursor: pointer;
+    }
+      
+      .magictitle {
+      position: absolute;
+      top: 82px;
+      left: 569px;
+      width: 380px;
+      height: 51px;
+      text-align: left;
+      font-size: 45px;
+      color: #000;
+      font-family: Georgia;
+      }
+      
+      .magicdescription {
+       position: absolute;
+       top: 153px;
+       left: 571.24px;
+       line-height: 148.25%;
+       color: rgba(0, 0, 0, 0.7);
+       text-align: left;
+       font-family: Proxima Nova;
+       display: inline-block;
+       width: 388.57px;
+       height: 76.19px;
+      }
+            
+/* Project Description Components Styles */ 
+            
+    .figmacontainer {
+      position: absolute;
+      height: 8.91%;
+      width: 8.96%;
+      top: 56.84%;
+      right: 36.24%;
+      bottom: 34.25%;
+      left: 54.8%;
+      border-radius: 18.1px;
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+      
+    .figma {
+      position: absolute;
+      width: 8.96%;
+      top: 57.78%;
+      left: 54.8%;
+      line-height: 148.25%;
+      font-weight: 500;
+      color: #fff;
+      display: inline-block;
+    }
+
+    .prototypingcontainer {
+      position: absolute;
+      height: 8.91%;
+      width: 13.44%;
+      top: 69.27%;
+      right: 31.77%;
+      bottom: 21.82%;
+      left: 54.8%;
+      border-radius: 18.1px;
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+      
+    .prototyping {
+      position: absolute;
+      width: 13.44%;
+      top: 70.21%;
+      left: 54.8%;
+      line-height: 148.25%;
+      font-weight: 500;
+      color: #fff;
+      display: inline-block;
+    }
+      
+    .uxdesigncontainer {
+      position: absolute;
+      height: 8.91%;
+      width: 14.99%;
+      top: 56.84%;
+      right: 19.98%;
+      bottom: 34.25%;
+      left: 65.04%;
+      border-radius: 18.1px;
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+      
+    .uxdesign {
+      position: absolute;
+      width: 14.99%;
+      top: 57.78%;
+      left: 65.04%;
+      line-height: 148.25%;
+      font-weight: 500;
+      color: #fff;
+      display: inline-block;
+    }
+      
+    .casecontainer {
+      position: absolute;
+      height: 8.87%;
+      width: 13.34%;
+      top: 69.25%;
+      right: 17.45%;
+      bottom: 21.89%;
+      left: 69.21%;
+      border-radius: 18.1px;
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .casestudy {
+      position: absolute;
+      width: 13.05%;
+      top: 70.55%;
+      left: 69.21%;
+      line-height: 148.25%;
+      font-weight: 500;
+      display: inline-block;
+    }
+      
+      .adobecontainer {
+      position: absolute;
+      top: 243px;
+      left: 571px;
+      border-radius: 18.1px;
+      background-color: rgba(0, 0, 0, 0.7);
+      width: 182px;
+      height: 36px;
+      }
+        
+      .adobe {
+      position: absolute;
+      top: 247px;
+      left: 571px;
+      line-height: 148.25%;
+      color: #fff;
+      font-weight: 500;
+      font-family: 'Circular Std';
+      display: inline-block;
+      width: 182px;
+      }
+      
+      .graphiccontainer {
+      position: absolute;
+      top: 243.43px;
+      left: 762px;
+      border-radius: 18.1px;
+      background-color: rgba(0, 0, 0, 0.7);
+      width: 176px;
+      height: 36px;
+      }
+      
+      .graphicdesign {
+       position: absolute;
+       top: 247.43px;
+       left: 762px;
+       color: #fff;
+       line-height: 148.25%;
+       display: inline-block;
+       width: 176px;
+      } 
+      
+      .brandingcontainer {
+      position: absolute;
+      top: 288.43px;
+      left: 571px;
+      border-radius: 18.1px;
+      background-color: rgba(0, 0, 0, 0.7);
+      width: 118px;
+      height: 36px;
+      }
+      
+      .branding {
+      position: absolute;
+      top: 292.43px;
+      left: 571px;
+      color: #fff;
+      line-height: 148.25%;
+      font-weight: 500;
+      font-family: 'Circular Std';
+      display: inline-block;
+      width: 118px;
+      }
+        
+      .magicphoto {
+       position: absolute;
+       top: 43px;
+       left: 40px;
+       border-radius: 15px;
+       width: 434px;
+       height: 328px;
+       object-fit: cover;
+      }
+        </style>
+        
+
+<!--Stratshare HTML--> 
+  <div class="stratshare-container" onclick="window.location.href='stratshare.html'">
+    <div class="overlay"></div>
+
+    <div class="ssdescription">
+      Improving the commuting experiences for GBDA students.
+    </div>
+
+    <div class="sstitle">
+      <b>StratShare</b>
+    </div>
+
+    <img class="ssphoto" alt="Stratshare Photo" src="Stratsharemockup%201.png">
+
+    <div class="figmacontainer"></div>
+    <div class="prototypingcontainer"></div>
+    <div class="uxdesigncontainer"></div>
+    <div class="casecontainer"></div>
+
+    <div class="figma">
+      Figma
+    </div>
+
+    <div class="uxdesign">
+      UX/UI Design
+    </div>
+
+    <div class="casestudy">
+      Case Study
+    </div>
+
+    <div class="prototyping">
+      Prototyping
+    </div>
+  </div>
+    
+ <!--Colour City HTML-->        
+          <div class="colourcity-container">
+    <div class="colourcity-group-container" onclick="window.location.href='colourcity.html'">
+      <div class="colourcity-overlay"></div>
+
+      <div class="figmacontainer"></div>
+      <div class="prototypingcontainer"></div>
+      <div class="uxdesigncontainer"></div>
+
+      <div class="figma">
+        Figma
+      </div>
+
+      <div class="uxdesign">
+        UX/UI Design
+      </div>
+
+      <div class="prototyping">
+        Prototyping
+      </div>
+
+      <div class="colourcity-description">
+        Redesigning the Colour City website for an improved user experience.
+      </div>
+
+      <div class="colourcity-title">
+        <b>Colour City</b>
+      </div>
+
+      <img class="colourcitymockup" alt="Colourcitymockup" src="CCMockup%201.png">
+
+    </div>
+  </div>
+        
+<!--Magic Nation HTML--> 
+  <div class="magicnation-container" onclick="window.location.href='Magic.html'">
+    <div class="magicnation-overlay"></div>
+
+    <div class="magicdescription">
+      Designing the school logo for Father Michael McGivney Catholic Academy.
+    </div>
+
+    <div class="magictitle">
+      <b>Magic Nation</b>
+    </div>
+
+    <img class="magicphoto" alt="Magic Mockup" src="MagicMU.png">
+
+    <div class="adobecontainer"></div>
+    <div class="graphiccontainer"></div>
+    <div class="brandingcontainer"></div>
+
+    <div class="adobe">
+      Adobe Illustrator
+    </div>
+
+    <div class="graphicdesign">
+      Graphic Design
+    </div>
+
+    <div class="branding">
+      Branding
+    </div>
+  </div>
+        
+<!--Footer--> 
+      <div
+        style="
+          position: absolute;
+          top: 2442px;
+          left: 0px;
+          background-color: #f5f5f5;
+          width: 1440px;
+          height: 329px;
+        "
+      ></div>
+      <!--Contact-->
+      <div
+        style="
+          position: absolute;
+          top: 2516px;
+          left: 866px;
+          width: 113px;
+          height: 38px;
+          font-size: 30px;
+        "
+      >
+        <b style="position: absolute; top: 0px; left: 0px">Contact</b>
+      </div>
+      <!--Description-->
+      <b style="position: absolute; top: 2535px; left: 272px; font-size: 35px">
+        <p style="margin: 0">Like what you see?</p>
+        <p style="margin: 0">Shoot me a message! →</p>
+      </b>
+      <div
+        style="
+          position: absolute;
+          top: 2658px;
+          left: 866px;
+          width: 142.38px;
+          height: 46px;
+          text-align: center;
+          font-size: 14.6px;
+          color: #fff;
+        "
+      >
+      <!--Get in touch-->
+        <div
+          style="
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            border-radius: 23px;
+            background-color: #000;
+            width: 142.38px;
+            height: 46px;
+          "
+        ></div>
+        <div
+          style="
+            position: absolute;
+            top: 12.41px;
+            left: 0px;
+            line-height: 148.25%;
+            font-weight: 500;
+            display: inline-block;
+            width: 142.38px;
+            height: 21.17px;
+            cursor: pointer;
+          "
+          id="gETINTOUCH"
+          onclick="window.location.href='contact.html'"
+        >
+          GET IN TOUCH
+        </div>
+          
+      </div>
+      <div
+        style="
+          position: absolute;
+          top: 2635px;
+          left: 272px;
+          width: 358.47px;
+          height: 32px;
+          font-size: 21.8px;
+          color: rgba(0, 0, 0, 0.25);
+          font-family: 'Proxima Nova';
+        "
+      >
+
+        <div
+          style="position: absolute; top: 0px; left: 0px; line-height: 148.25%"
+        >
+          Copyright © 2024 Antoinette Lozano 
+          <br>
+          <span style="font-size: 17px;">Designed using Figma, Developed with VScode</span>
+        </div>
+
+      </div>
+
+      <div
+        style="
+          position: absolute;
+          top: 2606px;
+          left: 867px;
+          width: 301px;
+          height: 40px;
+          color: rgba(0, 0, 0, 0.7);
+        "
+      >
+        <div
+          style="
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 301px;
+            height: 40px;
+          "
+        >
+          <div
+            style="
+              position: absolute;
+              top: 0px;
+              left: 25px;
+              line-height: 198.25%;
+              font-weight: 500;
+            "
+          >
+              
+            <!--Linkedin link-->
+            <a href="https://www.linkedin.com/in/a2lozano" target="_blank" class="linkedin-link"style="color: black; text-decoration: none;">www.linkedin.com/in/a2lozano</a>
+          </div>
+          <img
+            style="
+              position: absolute;
+              height: 37.5%;
+              width: 5.32%;
+              top: 32.5%;
+              right: 94.68%;
+              bottom: 30%;
+              left: 0%;
+              max-width: 100%;
+              overflow: hidden;
+              max-height: 100%;
+              object-fit: cover;
+            "
+            alt="Linkedin Icon"
+            src="LinkedIn.png"
+          />
+        </div>
+      </div>
+      <div
+        style="
+          position: absolute;
+          top: 2567px;
+          left: 866px;
+          width: 244px;
+          height: 39px;
+          color: rgba(0, 0, 0, 0.7);
+        "
+      >
+        <div
+          style="
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 244px;
+            height: 39px;
+          "
+        >
+          <div
+            style="
+              position: absolute;
+              top: 0px;
+              left: 26px;
+              line-height: 198.25%;
+              font-weight: 500;
+              display: inline-block;
+              width: 218px;
+              height: 39px;
+            "
+          >
+        <!--Email link-->
+        <p style="margin: 0"><a href="mailto:a2lozano@uwaterloo.ca" class="email-link" style="color: black; text-decoration: none;" >a2lozano@uwaterloo.ca</a></p>
+
+          </div>
+          <img
+            style="
+              position: absolute;
+              height: 38.46%;
+              width: 7.38%;
+              top: 30.77%;
+              right: 92.62%;
+              bottom: 30.77%;
+              left: 0%;
+              max-width: 100%;
+              overflow: hidden;
+              max-height: 100%;
+              object-fit: cover;
+            "
+            alt="Email Icon"
+            src="Mail.png"
+          />
+        </div>
+      </div>
+    </div>     
+  </body>
+</html>
+
+
+
