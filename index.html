@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css"/>
     </head>
   <body>
-      
+       
  <!-- Header HTML -->
   <header>
     <b href="index.html" onclick="scrollToTop()">AL.</b>
@@ -591,7 +591,16 @@
         
 
 <!--Stratshare HTML--> 
-  <div class="stratshare-container" onclick="window.location.href='stratshare.html'">
+  <div class="stratshare-container" onclick="navigateToStratShare()"
+
+<script>
+    function navigateToStratShare() {
+        // Use a relative path to navigate within the GitHub Pages site
+        window.location.href = 'StratShare.html';
+    }
+</script>
+
+
     <div class="overlay"></div>
 
     <div class="ssdescription">
