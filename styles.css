@@ -3,6 +3,13 @@
   src: url('Fonts/CircularStd.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Georgia Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Georgia Bold'), url('georgiab.woff') format('woff');
+}
+
 body {
   margin: 0;
   line-height: normal;
