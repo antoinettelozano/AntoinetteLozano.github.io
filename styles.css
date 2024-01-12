@@ -8,6 +8,11 @@
   src: url('Fonts/Georgia.ttf') format('truetype');
 }
 
+ @font-face {
+  font-family: 'Proxima Nova';
+  src: url('Fonts/Proxima nova.ttf') format('truetype');
+}
+
 body {
   margin: 0;
   line-height: normal;
