@@ -4,10 +4,8 @@
 }
 
 @font-face {
-  font-family: 'Georgia Bold';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Georgia Bold'), url('georgiab.woff') format('woff');
+  font-family: 'Georgia';
+  src: url('Fonts/Georgia.ttf') format('truetype');
 }
 
 body {
