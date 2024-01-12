@@ -13,6 +13,11 @@
   src: url('Fonts/Proxima nova.ttf') format('truetype');
 }
 
+ @font-face {
+  font-family: 'Circular Std-bold';
+  src: url('Fonts/CircularStd.ttf') format('truetype');
+}
+
 body {
   margin: 0;
   line-height: normal;
