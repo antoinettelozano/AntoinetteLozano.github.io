@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Circular Std';
+  src: url('Fonts/CircularStd.ttf') format('truetype');
+  font-weight: 500; 
+}
 
 body {
   margin: 0;
@@ -13,7 +18,7 @@ body {
   text-align: left;
   font-size: 19.05px;
   color: #fff;
-  font-family: "Circular Std";
+  font-family: 'Circular Std';
 }
 
 header {
