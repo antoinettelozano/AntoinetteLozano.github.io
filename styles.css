@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'Circular Std';
   src: url('Fonts/CircularStd.ttf') format('truetype');
+  font-weight: 500;
 }
 
 @font-face {
@@ -16,6 +17,7 @@
  @font-face {
   font-family: 'Circular Std-bold';
   src: url('Fonts/CircularStd.ttf') format('truetype');
+  font-weight: 500;
 }
 
 body {
