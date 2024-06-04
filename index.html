@@ -19,6 +19,64 @@
     />
     
     </head>
+
+       <style>
+        .custom-popup {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 300px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            border-radius: 8px;
+            text-align: center;
+            z-index: 1000;
+        }
+        .custom-popup a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .custom-popup a:hover {
+            text-decoration: underline;
+        }
+        .custom-close-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        .custom-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 999;
+        }
+    </style>
+</head>
+<body>
+    <!-- Popup and overlay HTML -->
+    <div class="custom-overlay" id="custom-overlay"></div>
+    <div class="custom-popup" id="custom-popup">
+        <span class="custom-close-btn" id="customCloseBtn">&times;</span>
+        <p>I've created a new portfolio! Check it out at:</p>
+        <a href="https://antoinettelozano.framer.website/" target="_blank">antoinettelozano.framer.website</a>
+    </div>
+
+    <script>
+        // Popup close button functionality
+        document.getElementById('customCloseBtn').addEventListener('click', function() {
+            document.getElementById('custom-popup').style.display = 'none';
+            document.getElementById('custom-overlay').style.display = 'none';
+        });
+    </script>
+
+  
   <body>
        
  <!-- Header HTML -->
@@ -40,7 +98,6 @@
     }
     </script>
     <!-- Copied code ends -->
-      
       <div>
       <a href="index.html">WORK</a>
       <a href="about.html">ABOUT</a>
